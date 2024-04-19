@@ -8,7 +8,7 @@ class socios{
     }
 
 
-    //INSERTAR SOCIOS retrasados
+    //INSERTAR SOCIOS retrasados x2
     public function insertar_socio($id,$nombre, $nick, $pass, $activo) {
         
         $sentencia_insertar_socio= "INSERT INTO socios (nombre, nick, pass, activo) VALUES (?, ?, ?, ?)";
