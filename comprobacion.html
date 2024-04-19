@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-DfXdz+8ADWpq6k1tbF7jkfXeGd0tyLj1KkhO4LZtP0jI+9mVMcVZzWUew6Rpt+7F" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="icon" href="../imgs/logo.png" type="image/x-icon">
+    <title>Comprobación</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="../imgs/logo.png" alt=""class="img-fluid"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><img src="../imgs/logo.png" alt="" class="img-fluid"></h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Nuestras plataformas</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                         Cartelera
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item" href="#">Peliculas</a></li>
+                                        <li><a class="dropdown-item" href="#">Series</a></li>
+                                        <li><a class="dropdown-item" href="#">Acceder</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                                <button class="btn btn-primary" role="button" aria-disabled="true">Aceptar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    
+        <!-- <section>
+            <form method="POST" action="#">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Introduce tu usuario" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Introduce tu contraseña">
+                </div>
+                <button type="submit" class="btn btn-primary">Aceptar</button>
+                </form>
+        </section>-->
+    
+        <section>
+            <!-- Sección de últimos lanzamientos -->
+            <h2>Últimos Lanzamientos</h2>
+        </section>
+        
+        <section>
+            <!-- Sección de comentarios -->
+            <h2>Últimos Comentarios</h2>
+            <!--carrousel de comentarios -->
+        </section>
+    
+            <!-- Footer -->
+        <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block blockquote">
+                    <span>Siguenos en nuestras redes sociales:</span>
+                </div>
+                <!-- Left -->
+    
+                <!-- Right -->
+                <div>
+                    <a data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #3b5998;"
+                    href="#"
+                    role="button" href="#" class="me-4 text-reset">
+                        <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                    </a>
+    
+                    <a data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #55acee;"
+                    href="#"
+                    role="button" href="#" class="me-4 text-reset">
+                        <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                    </a>
+    
+                    <a data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #dd4b39;"
+                    href="#"
+                    role="button" href="#" class="me-4 text-reset">
+                        <i class="fa fa-google fa-lg" aria-hidden="true"></i>
+                    </a>
+    
+                    <a data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #ac2bac;"
+                    href="#"
+                    role="button" href="#" class="me-4 text-reset">
+                        <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                    </a>
+    
+                    <a data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #0082ca;"
+                    href="#"
+                    role="button" href="#" class="me-4 text-reset">
+                        <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                    </a>
+    
+                    <a data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #333333;"
+                    href="#"
+                    role="button" href="#" class="me-4 text-reset">
+                        <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+    
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4 text-center">
+                            <i class="fas fa-gem me-3"></i>EAG
+                        </h6>
+                            <p class="text-center">
+                            EAG VideoClub es el sitio perfecto para los fanáticos del cine. 
+                            Desde clásicos, estrenos, series y hasta algunas reliquias en VHS.  
+                            Es el lugar ideal para los cinéfilos de corazón. ¡No te lo pierdas!
+                            </p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4 text-center">
+                            Servicios
+                        </h6>
+    
+                        <p class="text-center">
+                            <a href="#" class="text-reset text-decoration-none">Últimos lanzamientos</a>
+                        </p>
+    
+                        <p class="text-center">
+                            <a href="#" class="text-reset text-decoration-none">Películas</a>
+                        </p>
+    
+                        <p class="text-center">
+                            <a href="#" class="text-reset text-decoration-none">Series</a>
+                        </p>
+    
+                        <p class="text-center">
+                            <a href="#" class="text-reset text-decoration-none">Plataformas</a>
+                        </p>
+    
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4 text-center">
+                        Atención al cliente
+                    </h6>
+                    <p class="text-center">
+                        <a href="#" class="text-reset text-decoration-none">Politica de privacidad</a>
+                    </p>
+                    <p class="text-center">
+                        <a href="#" class="text-reset text-decoration-none">Politica de Cookies</a>
+                    </p>
+                    <p class="text-center">
+                        <a href="#" class="text-reset text-decoration-none">Aviso Legal</a>
+                    </p>
+                    <p class="text-center">
+                        <a href="#" class="text-reset text-decoration-none">Terminos y condiciones</a>
+                    </p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4 text-center">Contacto</h6>
+                        <p class="text-center"> Avda. Doctor Olóriz, 6. Granada, 18012.</p>
+                        <p class="text-center">
+                            info@videoclubeag.com
+                        </p>
+                        <p class="text-center"> +34 958 27 80 60.</p>
+                        <p class="text-center"> +34 613 23 33 33</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+                <div class="text-center mx-auto">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3178.5570463523245!2d-3.6102333882597595!3d37.18699647202328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fcef3b5731b7%3A0x75aa4e979704f0b5!2sAv.%20Dr.%20Oloriz%2C%206%2C%20Beiro%2C%2018012%20Granada!5e0!3m2!1ses!2ses!4v1707208297131!5m2!1ses!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+    
+                </div>
+            </section>
+            <!-- Section: Links  -->
+    
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05); text-center">
+                © 2021 Copyright
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
